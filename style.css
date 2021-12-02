@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+#form {
+  width: 80%;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+#box {
+  background-color: coral;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  /* align-items: stretch; */
+}
+
+/* position in css */
+
+.card {
+  background-color: cyan;
+  width: 200px;
+  padding: 4px 8px;
+  margin: 2px;
+  position: relative;
+}
+
+.card span {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
